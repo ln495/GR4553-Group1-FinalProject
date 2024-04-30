@@ -1,12 +1,14 @@
 # GR4553-Group1-FinalProject
 Group 1 Final Project repository 
 
-#Each branch contains different parts of the final project for the 2011 MS River flooding event.
+#These Python files can be used to examine different meteorological/hydrological charts for the MS River Flooding of 2011.
 
-#In the Upper-Air branch, the Python file plots an upper air chart for 4/22/2011 (relative humidity/geopotential height). The resulting plot is in a separate file within the branch.
+#In the 20110422_sounding.py file, data is pulled from the University of Wyoming remote server to plot a sounding for Springfield, MO on April 23rd, 2011.
 
-#In the sfc-maps branch, the two Python files plot surface charts for 4/22/2011 and 4/23/2011, respectively, each with total precipitation amounts. The resulting plots are in separate files within the branch. 
+#In the finalproject_meteogram.py file, data from two different text files is plotted to depict the MS River stream flow changes after the flooding effects.
 
-#In the sounding branch, the Python file retrieves sounding data for 4/23/2011 at 7am from the Springfield, Missouri station. The resulting plot is a separate file within the branch. 
+#In the finalproject_upperair.py file, data is pulled from a GFS grb file to depict the upper air geopotential heights and relative humidity contours on April 22nd, 2011.
 
-#In the meteogram branch, the Python file creates a plot showing the MS river's height change over time. The resulting plot is a separate file within the branch. 
+#In the prcp_sfc04_22.py file, data is pulled from a GFS model grb file to create a surface map for forecasted precipitation amounts on April 22rd, 2011.
+
+#Similarly, in the prcp_sfc_23map.py file, data is pulled from a different GFS model grb file to create a surface map for forecasted precipitation amounts on April 23rd, 2011. 
