@@ -7,7 +7,7 @@ import cartopy.feature as cf
 import cartopy.crs as ccrs
 import pygrib
 
-grbGFS = pygrib.open("gfsanl_4_2011042218.g2/gfs_4_20110422_1800_000.grb2")
+grbGFS = pygrib.open("gfs_4_20110422_1800_000.grb2")
 
 ##Find geopotential height and relative humidity values at the 300mb level in the file
 hgt300 = grbGFS.select(name = 'Geopotential Height', level = 300)[0]
