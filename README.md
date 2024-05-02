@@ -2,6 +2,7 @@
 Group 1 Final Project repository 
 
 #These Python files can be used to examine different meteorological/hydrological charts for the MS River Flooding of 2011.
+#There is also data_folder, which contains the necessary data files used within each Python file.
 
 #In the 20110422_sounding.py file, data is pulled from the University of Wyoming remote server to plot a sounding for Springfield, MO on April 23rd, 2011.
 
