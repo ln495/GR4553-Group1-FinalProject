@@ -14,3 +14,5 @@ Group 1 Final Project repository
 #In the prcp_sfc04_22.py file, data is pulled from a GFS model grb file to create a surface map for forecasted precipitation amounts on April 22rd, 2011.
 
 #Similarly, in the prcp_sfc_23map.py file, data is pulled from a different GFS model grb file to create a surface map for forecasted precipitation amounts on April 23rd, 2011. 
+
+#The resulting png files after running each Python file can also be found in the file_pngs folder. 
